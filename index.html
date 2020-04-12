@@ -1,0 +1,183 @@
+<!-- Recriando a interface do Facebook tela de login -->
+<!DOCTYPE html>
+<html lang="pt-br">
+ <head>
+   <title> Facebook-entre ou cadastre-se</title>
+   <meta charset="utf-8">
+   <meta name="author" content="Lucas Alves Dos Santos">
+   <meta name="description" content="Recriando a página de login do Facebook">
+   <meta name="keywords" content="HTML5,CSS3,JS, Front">
+   <meta name="viewport" content="width=width-device, initial-scale=1.0, maximum-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+ </head>
+ <body>
+      <header>
+        <div class="center">
+          <div class="logo">
+            <h2> Facebook </h2>
+         </div><!--logo-->
+
+         <form class="form-login"> 
+            <div class="form-element">
+                <p> Email ou telefone</p>
+                <input type="email" name="email" required>
+            </div><!--form-element-->
+            <div class="form-element">
+                <p> Senha</p>
+                <input type="password" name="email" required>
+            </div><!--form-element-->
+            <button> Entrar </button>
+          </form>
+        </div><!--center-->
+        <div class="clear"></div><!--clear-->
+      </header>
+      
+      <section class="main">
+        <div class="center">
+          <div class="img-pessoas">
+            <p> O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+            <img src="img/mapa.png" alt="mapa de conexão com varias pessoas">
+          </div><!--img-pessoas-->
+
+          <div class="abrir-conta">
+            <h2> Abra a sua conta </h2>
+            <p> É gratuito e sempre será </p>
+          
+            <form class="criar-conta">
+              <div class="w50">
+                <input type="text" placeholder="Nome">
+              </div><!--w50-->
+             
+              <div class="w50">
+                <input type="text" placeholder="SobreNome">
+              </div><!--w50-->
+
+              <div class="w100">
+                <input type="email" placeholder="Celular ou email">
+              </div><!--w100-->
+
+              <div class="w100">
+                <input type="password" placeholder="Nova senha">
+              </div><!--w100-->
+
+              <div class="w150">
+                <h3> Data de nascimento </h3>
+                <select id="Dia">
+                  <optgroup label="Dia">
+                  <option value="1"> 1 </option>
+                  <option value="2"> 2 </option>
+                  <option value="3"> 3 </option>
+                  <option value="4"> 4 </option>
+                  <option value="5"> 5 </option>
+                  <option value="6"> 6 </option>
+                  <option value="7"> 7 </option>
+                  <option value="8"> 8 </option>
+                  <option value="9"> 9 </option>
+                  <option value="10"> 10 </option>
+                  <option value="11"> 11 </option>
+                  <option value="12"> 12 </option>
+                  <option value="13"> 13 </option>
+                  <option value="14"> 14 </option>
+                  <option value="15"> 15 </option>
+                  <option value="16"> 16 </option>
+                  <option value="17"> 17 </option>
+                  <option value="18"> 18 </option>
+                  <option value="19"> 19 </option>
+                  <option value="20"> 20 </option>
+                  <option value="21"> 21 </option>
+                  <option value="22"> 22 </option>
+                  <option value="23"> 23 </option>
+                  <option value="24"> 24 </option>
+                  <option value="25"> 25 </option>
+                  <option value="26"> 26 </option>
+                  <option value="27"> 27 </option>
+                  <option value="28"> 28 </option>
+                  <option value="29"> 29 </option>
+                  <option value="30"> 30 </option>
+                  <option value="31"> 31 </option>
+                  </optgroup>
+                </select><!--dia-->
+
+                <select id="Mês">
+                  <option label="Mês">
+                    <otion value="Janeiro"> Jan  </otion>
+                    <option value="Feveiro"> Fev </option>
+                    <option value="Marco"> Mar   </option>
+                    <option value="Abril"> Abr   </option>
+                    <option value="Maio"> Mai    </option>
+                    <option value="Junho"> Jun   </option>
+                    <option value="Julho"> Jul  </option>
+                    <option value="Agosto"> Ago  </option>
+                    <option value="Setembro"> Set </option>
+                    <option value="Outobro">  Out</option>
+                    <option value="Novembro"> Nov </option>
+                    <option value="Dezembro"> Dez </option>
+                  </option>
+                </select><!--Mês-->
+
+                <select id="Ano">
+                  <optgroup label="Ano ">
+                  <option value="1"> 1995</option>
+                  <option value="2"> 1996 </option>
+                  <option value="3"> 1997 </option>
+                  <option value="4"> 1998 </option>
+                  <option value="5"> 1999 </option>
+                  <option value="6"> 2000 </option>
+                  <option value="7"> 2001 </option>
+                  <option value="8"> 2002 </option>
+                  <option value="9"> 2003 </option>
+                  <option value="10"> 2004 </option>
+                  <option value="11"> 2005 </option>
+                  <option value="12"> 2006 </option>
+                  <option value="13">  </option>
+                  <option value="14"> 14 </option>
+                  <option value="15"> 15 </option>
+                  <option value="16"> 16 </option>
+                  <option value="17"> 17 </option>
+                  <option value="18"> 18 </option>
+                  <option value="19"> 19 </option>
+                  <option value="20"> 20 </option>
+                  <option value="21"> 21 </option>
+                  <option value="22"> 22 </option>
+                  <option value="23"> 23 </option>
+                  <option value="24"> 24 </option>
+                  <option value="25"> 25 </option>
+                  <option value="26"> 26 </option>
+                  <option value="27"> 27 </option>
+                  <option value="28"> 28 </option>
+                  <option value="29"> 29 </option>
+                  <option value="30"> 30 </option>
+                  <option value="31"> 31 </option>
+                  </optgroup>
+                </select><!--dia-->
+
+              </div><!-- w150-->
+              
+              <div class="w100">
+                <div class="input-radio">
+                  <input type="radio" name="sexo" value="masculino">
+                  <h2> Masculino </h2>
+                </div>
+                <div class="input-radio">
+                  <input type="radio" na value="feminino">
+                  <h2> Feminino </h2>
+                </div>
+                <div class="clear"></div><!--clear-->
+              </div>
+
+            
+                
+             
+                <div class="clear"></div>
+
+              </div><!--w200-->
+
+            </form>
+          </div><!--abrir-conta -->
+
+
+          <div class="clear"></div><!--clear-->
+        </div><!--center -->
+      </section><!-- main -->
+ </body>
+</html>
